@@ -14,13 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+.main_{
+    width: 100%;
+    height: 100vh;
+  background-image:url('../public/Images/beach-during-sunset.jpg');
+  background-position:center ;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+}
+
 
 @media (prefers-color-scheme: dark) {
-  html {
+ /* html {
     color-scheme: dark;
   }
   body {
     color: white;
     background: black;
-  }
+  }*/
 }
