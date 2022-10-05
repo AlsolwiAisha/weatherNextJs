@@ -4,6 +4,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-image:url('../public/Images/beach-during-sunset.jpg');
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {
@@ -14,17 +18,106 @@ a {
 * {
   box-sizing: border-box;
 }
-.main_{
-    width: 100%;
-    height: 100vh;
-  background-image:url('../public/Images/beach-during-sunset.jpg');
-  background-position:center ;
-  background-repeat: no-repeat;
-  margin: 0px;
-  padding: 0px;
+.all{
+  width: 100%;
+  height: 100%;
+    display: flex;   
+     align-items: center;
+    flex-direction: column;
 }
+.main_{
+  width: 100%;
+  height: 80%;
+  margin: 0px;
+  display: flex;   
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.city{
+  width: 40%;
+  height: 60vh;
+  display: flex;  
+  flex-direction: column;
+  align-items: stretch;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+.CitiesUl{
+    width:100%;
+    direction: rtl;
+    padding: 5px;
+    list-style-type: none;
+    margin: 0;
+    overflow-y:scroll;
+    color: rgb(160, 160, 160);
+    margin-top: 3px;
+    font-size: 20px;
+    border-radius: 10%;
+ 
+}
+.city_IS{
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.4);
+  margin: 3px;
+  color: #1a1a1b;
+}
+li  {
+  border: 0.3px solid #ddd;
+  margin-top: -1px; 
+  padding: 10px;
+  text-decoration: none; 
+  font-size: 18px; 
+  color: rgb(17, 17, 17); 
+  display: flex; /* Make it into a block element to fill the whole list */
+  background: rgba(255, 255, 255, 0.4);
+}
+.CitiesUl li:hover{
+  background-color: rgba(238, 238, 238, 0.7); /* Add a hover effect to all links, except for headers */
+color: black; }
 
+.cityWeather{
+  width: 40%;
+  height: 60vh;
+  background: rgba(255, 255, 255, 0.4);
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10%;
+  font-size: 30px;
+   color: #561414e3;
+}
+.C_temp{
+  font-size: 80px;
+  margin: 0px;
+}
+.minMx{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
 
+}
+.MX{
+  margin: 10px;
+}
+.bottom{
+  width: 85%;
+  height: 22vh;
+  display: flex;
+  font-size: 25px;
+  color:  #561414e3;
+  background: rgba(255, 255, 255, 0.4);
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+}
 @media (prefers-color-scheme: dark) {
  /* html {
     color-scheme: dark;
