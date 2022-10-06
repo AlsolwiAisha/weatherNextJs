@@ -57,7 +57,7 @@ body {
     color: rgb(160, 160, 160);
     margin-top: 3px;
     font-size: 20px;
-    border-radius: 10%;
+    border-radius: 20px;
  
 }
 .city_IS{
@@ -94,7 +94,7 @@ color: black; }
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  border-radius: 10%;
+  border-radius: 20px;
   font-size: 25px; 
   text-shadow: -3px 0px 4px #9d9d9d;
   color: #314770;
@@ -127,7 +127,29 @@ color: black; }
   justify-content: space-around;
   border-radius: 20px;
 }
+/* ::-webkit-scrollbar {
+  height: 6px;               height of horizontal scrollbar ← You're missing this 
+  width: 10px;                width of vertical scrollbar 
+  border: 1px solid #d5d5d5;
+ 
+/* }
+/*
+::-webkit-scrollbar {
+  width: 6px;
+}
 
+::-webkit-scrollbar-track {
+  background-color: #b46868;
+} 
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+} 
+::-webkit-scrollbar-button {
+  background-color: #7c2929;
+} 
+::-webkit-scrollbar-corner {
+  background-color: black;
+}  */
 @media (prefers-color-scheme: dark) {
  /* html {
     color-scheme: dark;
