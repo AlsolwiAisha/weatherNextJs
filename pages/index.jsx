@@ -16,7 +16,7 @@ export default function Home() {
 
  useEffect(() => {
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=52922fa07c551a030f9701eff376927a`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=52922fa07c551a030f9701eff376927a`
     )
       .then((res) => res.json())
       .then((res) => {
