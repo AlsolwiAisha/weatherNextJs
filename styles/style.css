@@ -60,6 +60,7 @@ body {
     border-radius: 20px;
  
 }
+/* style of input and select */
 .city_IS{
   padding: .7rem 1.5rem;
   font-size: 1.2rem;
@@ -110,6 +111,7 @@ color: black; }
   flex-direction: row-reverse;
 
 }
+
 .MX{
   margin: 10px;
 }
@@ -127,13 +129,8 @@ color: black; }
   justify-content: space-around;
   border-radius: 20px;
 }
-/* ::-webkit-scrollbar {
-  height: 6px;               height of horizontal scrollbar ← You're missing this 
-  width: 10px;                width of vertical scrollbar 
-  border: 1px solid #d5d5d5;
- 
-}*/
 
+/* Style of scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
