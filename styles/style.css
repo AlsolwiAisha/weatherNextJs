@@ -27,7 +27,7 @@ body {
      margin-top: 20px;
      align-items: center;
     flex-direction: column;
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
   border-radius: 50px;
 }
 .main_{
@@ -37,6 +37,7 @@ body {
   display: flex;   
   flex-direction: row-reverse;
   justify-content: space-between;
+ 
 }
 .city{
   width: 40%;
@@ -46,6 +47,7 @@ body {
   align-items: stretch;
   margin-right: 110px;
   margin-top: 30px;
+  backdrop-filter: blur(5px);
 }
 .CitiesUl{
     width:100%;
@@ -99,6 +101,7 @@ color: black; }
   font-size: 25px; 
   text-shadow: -3px 0px 4px #9d9d9d;
   color: #314770;
+  backdrop-filter: blur(5px);
   
 }
 .C_temp{
@@ -128,6 +131,7 @@ color: black; }
   align-items: center;
   justify-content: space-around;
   border-radius: 20px;
+  backdrop-filter: blur(5px);
 }
 
 /* Style of scrollbar */
