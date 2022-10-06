@@ -17,6 +17,7 @@ a {
 
 * {
   box-sizing: border-box;
+  font-weight: bold;
 }
 .all{
   width: 100%;
@@ -39,7 +40,7 @@ a {
   display: flex;  
   flex-direction: column;
   align-items: stretch;
-  margin-right: 100px;
+  margin-right: 110px;
   margin-top: 30px;
 }
 .CitiesUl{
@@ -82,15 +83,15 @@ color: black; }
   width: 40%;
   height: 60vh;
   background: rgba(255, 255, 255, 0.4);
-  margin-left: 100px;
+  margin-left: 110px;
   margin-top: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
   border-radius: 10%;
-  font-size: 30px;
-   color: #561414e3;
+  font-size: 25px;
+  color: #561414e3;
 }
 .C_temp{
   font-size: 80px;
