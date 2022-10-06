@@ -6,20 +6,13 @@ const Weather = ({ city, weather, onClick }) => {
         let x=(v1-32)/1.8;
         return `${Math.round(x)}°C`
     }
-    const handleKeyPress = (event) => {
-      if(event.key === 'Enter'){
-        onClick(city_)
-      }
-    }
- 
-  
+
     return (
      <div className="all">
        <div className="main_">
        <div className="city">
         <input className="city_IS" type="text" name="city_" id="city_"  placeholder='Enter city name' 
-          onChange={event => setCity_(event.target.value)}
-          onKeyPress={handleKeyPress}/>
+          onChange={(e) => onClick(e.target.value)}/>
         <select className="city_IS" onChange={(e) => onClick(e.target.value)}>
         {city.data.map((city, key) => {
             return (
