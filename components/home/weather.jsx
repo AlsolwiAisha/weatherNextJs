@@ -42,7 +42,7 @@ const Weather = ({ city, weather, onClick }) => {
            <div className="cityWeather">
            {weather.weather?<img width="150px" src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} />:null}
            {weather.main?<div class="C_temp">{CF(weather.main.temp)}</div>:null}
-           {weather?<div>{weather.sys.country} / { weather.name}</div>:null}
+           {(weather && weather.sys)?<div>{weather.sys.country} / { weather.name}</div>:null}
            {weather.weather? <div>{weather.weather[0].description}</div>:null}
            </div>
       </div>
