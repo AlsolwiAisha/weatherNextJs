@@ -14,7 +14,7 @@ export default function Home() {
   };
 
   const [weather, setWeather] = useState();
-
+// Api Of city weather
  useEffect(() => {
     fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=52922fa07c551a030f9701eff376927a`
@@ -26,7 +26,7 @@ export default function Home() {
       })
       .catch((err) => console.error(err));
    }, [city]);
-
+//Api of countries capital
   useEffect(() => {
     fetch("https://countriesnow.space/api/v0.1/countries/capital/")
       .then((res) => res.json())
