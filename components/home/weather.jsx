@@ -8,7 +8,7 @@ const Weather = ({ city, weather, onClick }) => {
     }
 
     return (
-     <div className="all">
+     <div className="all" >
        <div className="main_">
        <div className="city">
         <input className="city_IS" type="text" name="city_" id="city_"  placeholder='Enter city name' 
