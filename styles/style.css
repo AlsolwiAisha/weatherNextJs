@@ -169,15 +169,20 @@ color: black; }
        padding-bottom: 33px;
   }
   .city{
+    
     width: 60%;
-    height: 50vh;
+    height: 60vh;
     margin-right: 0px;
+    margin-top: 0px;
+  
   }
   .cityWeather{
     width: 60%;
     height: 60vh;
     margin-left: 65px;
     font-size: 18px;
+    margin-top: 0px;
+  
   }
   .C_temp {
     font-size: 60px;
